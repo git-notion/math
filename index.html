@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Math Fixer - Convert Math Expressions</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script
+    type="text/javascript"
+    async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.min.js"
+  ></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Math Fixer</h1>
+    <p>Enter your math expression (LaTeX or MathML) below:</p>
+    <textarea id="mathInput" rows="5" placeholder="e.g., E = mc^2 or \frac{a}{b}"></textarea>
+    <button onclick="renderMath()">Render</button>
+    <h2>Output:</h2>
+    <div id="output" class="output-box"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
